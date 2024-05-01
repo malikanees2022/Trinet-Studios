@@ -1,0 +1,17 @@
+.shadow-left-bottom {
+    box-shadow: -8px 8px 0px  #EC7729;
+    /* Shadow on bottom-right */ 
+  }
+
+  .shadow-left-bottom:hover {
+ box-shadow:2px -2px 5px 3px  rgba(255, 255, 255, 0.43), /* Top */
+ 2px 2px 5px 3px  rgba(0, 0, 0, 0.43), /* Right */
+ -2px -2px 5px 3px  rgba(0, 0, 0, 0.43), /* Bottom */
+ -2px 2px 5px 3px  rgba(0, 0, 0, 0.43);  
+  }
+  
+  .shadow-right-bottom {
+    box-shadow: 8px 12px 5px  rgba(0, 0, 0, 0.443),
+     -2px 12px 5px  rgba(0, 0, 0, 0.443);
+    /* Shadow on bottom-right */ 
+  }

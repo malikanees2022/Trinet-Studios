@@ -1,0 +1,21 @@
+.four-section{
+    
+    background-image: url('../../assets//bg-fou-section.png');
+    background-position: -44% 95%;
+    background-repeat: no-repeat;
+    background-size: 68% auto;
+}
+
+@media screen and (max-width:770px) {
+    .four-section{
+        background: none;
+    }
+    
+}
+@media screen and (max-width:1000px) {
+    .four-section{
+        background-size: 60% auto;
+        background-position: -44% 65%;
+    }
+    
+}

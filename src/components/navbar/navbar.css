@@ -1,0 +1,6 @@
+@media screen and (max-width:1024px) {
+    .flags{
+        display: none!important;
+        background-color: red;
+    }
+}

@@ -1,0 +1,114 @@
+/* home page navbar show hide on hover box  */
+
+.services-box{
+    display: none;
+}
+
+.services:hover .services-box{
+display: block;
+}
+.vedio-service-box{
+    display: none;
+}
+.vedio-service:hover .vedio-service-box{
+    display: block;
+}
+.hamburger{
+    display: none;
+}
+
+@keyframes mobileNav {
+    from{
+        height: 0%;
+    }
+    to{
+        height: 100%;
+    }
+}
+
+@media screen and (max-width:1024px) {
+    .navlist{
+display: none!important;
+
+    }
+    .hamburger{
+        display: block;
+    }
+}
+
+
+ /* Mainpage section  */
+ .animated-text {
+    margin-top:30px;
+    /* text-align:center; */
+    background-color: #EC7729;
+   padding-bottom: 6px;
+    width: fit-content;
+  }
+  
+  #ani-container {
+    color:white;
+    text-transform: uppercase;
+    font-size:36px;
+    font-weight:bold;
+    padding-top:6px; 
+    padding-left: 10px;
+    padding-right: 10px;
+
+    margin-top: 20px; 
+    width:100%;
+    bottom:45%;
+    display:block;
+    
+    /* background-color: pink; */
+  }
+  
+  #flip {
+    height:50px;
+    overflow:hidden;
+    
+  }
+  
+  #flip > div > div {
+    color:#fff;
+    /* padding:4px 12px; */
+    height:45px;
+    margin-bottom:45px;
+    display:inline-block;
+    
+  
+    /* background-color: red; */
+  }
+  
+  #flip div:first-child {
+    animation: show 5s linear infinite;
+  }
+  
+  /* #flip div div {
+    background:#42c58a;
+  }
+  #flip div:first-child div {
+    background:#4ec7f3;
+  }
+  #flip div:last-child div {
+    background:#DC143C;
+  } */
+  
+  @keyframes show {
+    0% {margin-top:-270px;}
+    5% {margin-top:-180px;}
+    33% {margin-top:-180px;}
+    38% {margin-top:-90px;}
+    66% {margin-top:-90px;}
+    71% {margin-top:0px;}
+    99.99% {margin-top:0px;}
+    100% {margin-top:-270px;}
+  }
+  @media screen and (max-width:700px){
+    #ani-container{
+      font-size: 20px;
+    }
+    #flip{
+      height: 30px;
+    }
+  }
